@@ -1,0 +1,19 @@
+[
+    {
+        "url": "https://api.github.com/",
+        "operations": [
+            {
+                "path": "repos/vmg/redcarpet/issues",
+                "method": "GET",
+                "params": {
+                    "state": "closed"
+                }
+            },
+            {
+                "path": "users/Davidslv/followers",
+                "method": "GET",
+                "params": {}
+            }
+        ]
+    }
+]

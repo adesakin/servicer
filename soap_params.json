@@ -1,0 +1,16 @@
+[
+    {
+        "url": "http://www.webservicex.net/ConvertTemperature.asmx?WSDL",
+        "ConvertTemp": {
+            "Temperature": 100,
+            "FromUnit": "degreeCelsius", 
+            "ToUnit": "degreeFahrenheit"
+        }
+    },
+    {
+        "url": "http://www.thomas-bayer.com/axis2/services/BLZService?wsdl",
+        "getBank": {
+            "blz": 52240006
+        }
+    }
+]
